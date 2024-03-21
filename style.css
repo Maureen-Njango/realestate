@@ -1,0 +1,224 @@
+#home{
+    display: flex;
+    
+
+
+
+}
+#sell{
+
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+#log{
+    display: flex;
+    justify-content: left;
+    
+
+}
+#nuvbal{
+    display: flex;
+
+}
+#b1{
+    display: flex;
+    justify-content: center;
+
+}
+#b2{
+
+    display: flex;
+    justify-content: center;
+}
+#rent{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+
+}
+#h1{
+    font-size: 98px;
+}
+#trust{
+    display: flex;
+    gap: 20%
+    
+}
+#paragraph{
+    font-size: x-large;
+}
+#sellers{
+    display: flex;
+    justify-content: center;
+gap: 10%;
+}
+#pg2{
+    
+    display: contents;
+    justify-content: center;
+}
+#house{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+#page3{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+
+}
+#page4{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+#page4a{
+    display: contents;
+    justify-content: center;
+
+}
+#page5{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+#page6{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+#page7{
+    display: flex;
+    justify-content: center;
+
+}
+#page8{
+    display: flex;
+    justify-content: center;
+}
+#page9{
+    display: flex;
+    justify-content: center;
+    gap: 13%;
+}
+#page10{
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+}
+#page11{
+    display: flex;
+    justify-content: space-around;
+
+}
+#high{
+    font-size: xx-large;
+}
+#heading{
+    font-size: 80px;
+}
+#butt1{
+    background-color: blue;
+    color: beige;
+    border-radius: 20px;
+    height: 40px;
+    width: 400px;
+}
+#butt2{
+    background-color: cornflowerblue;
+    color: beige;
+    border-radius: 50px;
+    height: 50px;
+    width: 200px;
+}
+#img1{
+    width: 1200px;
+}
+#imglast{
+    width: 1200px;
+}
+
+    
+
+
+
+
+@media  screen  and (max-width:576px){    
+#img1{
+    width: 700px;
+    justify-content: left;
+    
+}
+
+body{
+    background-color: brown;
+    max-width: 1100px;
+}
+#h1{
+    font-size: 80px;
+    margin-left: 400px;
+    justify-content: center;
+}
+#nuvbal{
+    display: flex;
+    margin-left: 900px;
+}
+#page10{
+    display: grid;
+    grid-template-columns: 1 1fr;
+    margin-left: 300px;
+}
+#imglast{
+    width: 700px;
+}
+#log{
+    display: flex;
+    justify-content: left;
+    margin-right: 30px;
+}
+#sell{
+
+    
+    gap: 40%;
+    margin-left: 500px;
+}
+#butt2{
+    border-radius: 40px;
+    height: 50px;
+    width: 200px;
+    margin-left: 70px;
+    
+}
+#sellers{
+    margin-left: 380px;
+    display: grid;
+    grid-template-columns: 1 1fr;
+    
+}
+#page6{
+    margin-left: 400px;
+    gap: 4%;
+
+
+
+}
+#page5{
+    margin-left: 400px;
+    
+    
+}
+#house{
+    display: grid;
+    grid-template-columns: 1 1fr;
+
+    
+}
+#page{
+    display: grid;
+    grid-template-columns: 1 1fr;
+
+}
+
+}
